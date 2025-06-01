@@ -8,7 +8,6 @@ import time
 
 mavlink_instance = mavlink2.MAVLink(None)
 
-
 start_time =  int(round(time.time() * 1000))
 current_milli_time = lambda: int(round(time.time() * 1000) - start_time)
 current_time_ms = current_milli_time()
